@@ -21,7 +21,7 @@ import sys
 import grequests
 from configobj import ConfigObj
 
-CONFIG_FILE = '/etc/keepalived/hetzner.conf'
+CONFIG_FILE = '/etc/failover-ip.conf'
 
 class Hetzner:
     def __init__(self, config, syslog=True):
